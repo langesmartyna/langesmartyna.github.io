@@ -1,0 +1,14 @@
+p {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.opacity{ 
+    opacity: 0.2;
+}
+

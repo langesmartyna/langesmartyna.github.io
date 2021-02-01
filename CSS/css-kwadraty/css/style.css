@@ -1,0 +1,15 @@
+h1 {
+    color: white; 
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #fea500;
+    margin-bottom: 15px;
+}
+
+.squarebox {
+    background-color: #808080;
+    padding: 30px;
+}

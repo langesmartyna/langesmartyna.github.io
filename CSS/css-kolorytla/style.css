@@ -1,0 +1,31 @@
+h1 {
+    background-color: blue;
+    color:firebrick;
+}
+
+#paragraf1 {
+    background-color: cornflowerblue;
+    color: green;
+}
+
+h3 {
+    background-color: darkorchid;
+    color: greenyellow;
+}
+
+#paragraf2 {
+    background-color: darkcyan;
+    color: hotpink;
+}
+
+ul {
+    background-color: darkslateblue;
+}
+
+li {
+    color: lavender;
+}
+
+section {
+    background-color: lightpink;
+}
