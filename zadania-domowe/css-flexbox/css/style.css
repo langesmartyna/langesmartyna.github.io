@@ -1,0 +1,68 @@
+
+body {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+}    
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    background-color: lightblue;
+    width: 60%;
+}
+
+#left {
+    background-color: green; 
+    width: 20%; 
+}
+
+#right {
+    background-color: pink;
+    width: 20%;
+}
+
+footer {
+    background-color: violet;
+}
+
+header,
+footer {
+    height: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #left {
+        width: 100%;
+        order: 1;
+    }
+    main {
+        width: 80%;
+    }
+    #right {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #left {
+        width: 100%;
+    }
+
+    #right {
+        width: 100%;
+        order: 3;
+    }
+
+    main {
+        width: 100%;
+    }
+}
