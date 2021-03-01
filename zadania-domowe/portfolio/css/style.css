@@ -71,6 +71,7 @@ body {
     font-size: 4.2em;
     color: #007bff;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .main-header .main-header-content p {
