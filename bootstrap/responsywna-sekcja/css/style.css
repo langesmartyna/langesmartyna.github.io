@@ -1,0 +1,23 @@
+.col-sm-6 {
+    color: orange;
+    font-size: 60px;
+}
+
+h1 , h2 {
+    color: gray;
+    font-weight: lighter;
+    font-size: small;
+}
+
+
+i {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+hr {
+    width: 100px;
+    border: 1px solid gray;
+    border-bottom: 0;
+}
