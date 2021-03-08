@@ -1,0 +1,22 @@
+button {
+    cursor: pointer;
+    color: orange;
+}
+
+.accordion-item {
+    background-color: rgb(214, 205, 205);
+}
+
+.accordion-body {
+    background-color: white;
+}
+
+hr {
+    border: 1px solid gray;
+    width: 200px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
