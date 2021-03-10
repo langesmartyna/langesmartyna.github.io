@@ -5,19 +5,21 @@
 
 h1 , h2 {
     color: gray;
-    font-weight: lighter;
-    font-size: small;
 }
 
 
-i {
+.fab {
     background-color: whitesmoke;
     border-radius: 50%;
-    padding: 30px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
 }
 
 hr {
     width: 100px;
     border: 1px solid gray;
-    border-bottom: 0;
+    margin: 20px auto;
 }
