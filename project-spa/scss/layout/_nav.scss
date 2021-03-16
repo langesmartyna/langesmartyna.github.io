@@ -1,0 +1,34 @@
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+
+    .main-nav-holder {
+        @include flexbox;
+        justify-content: space-between;
+    }
+
+    .brand {
+        height: 50px;
+        display: inline-block;
+
+        img {
+            height: 100%;
+        }
+
+
+    }
+
+    .open-menu-holder {
+        position: fixed;
+        background-color: $primary-color;
+        top: 0;
+        right: 0;
+        max-width: 480px;
+        text-align: right;
+        display: none;
+    }
+    
+}
