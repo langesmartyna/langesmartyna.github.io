@@ -81,8 +81,22 @@
     }    
 
     @media all and (min-width: $large) {
+
+        .main-header-holder {
+            width: 60%;
+        }
+
         .header-bg {
             display: block;
+        }
+    }
+
+    @media all and (min-width: $extra-small) {
+        .buttons-panel {
+            .reserve,
+            .watch {
+                margin: 0;
+            }
         }
     }
 
