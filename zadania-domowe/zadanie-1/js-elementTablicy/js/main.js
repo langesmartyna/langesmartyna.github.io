@@ -6,3 +6,5 @@ function tablica (myArray) {
 }
 
 tablica(myArray);
+
+console.log (tablica(myArray));
