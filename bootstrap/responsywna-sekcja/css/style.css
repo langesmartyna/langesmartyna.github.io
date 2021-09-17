@@ -1,0 +1,25 @@
+.col-sm-6 {
+    color: orange;
+    font-size: 60px;
+}
+
+h1 , h2 {
+    color: gray;
+}
+
+
+.fab {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+hr {
+    width: 100px;
+    border: 1px solid gray;
+    margin: 20px auto;
+}
